@@ -895,7 +895,25 @@
 							<thumb>icons/sidemenu/weather.png</thumb>
 							<property name="id">weather</property>
 							<visible>!Skin.HasSetting(HomeMenuNoWeatherButton)</visible>
-						</item-->
+						</item>
+                                                <item>
+                                                        <label>My OSMC</label>
+                                                        <onclick>RunAddon(service.osmc.settings)</onclick>
+                                                        <thumb>icons/home/addons.png</thumb>
+                                                        <property name="id">osmc</property>
+                                                </item>-->
+						<item>
+                                                        <label>Submit Request</label>
+                                                        <onclick>RunAddon(script.submit.request)</onclick>
+                                                        <thumb>/home/osmc/.kodi/addons/script.submit.request/icon.png</thumb>
+                                                        <property name="id">submit_request</property>
+                                                </item>
+		                        	<!--<item>
+                                                        <label>Next Aired</label>
+                                                        <onclick>RunAddon(script.tv.show.next.aired)</onclick>
+                                                        <thumb>/home/osmc/.kodi/addons/script.tv.show.next.aired/icon.png</thumb>
+                                                        <property name="id">next_aired</property>
+                                                </item>-->
 					</content>
 				</control>
 				<control type="grouplist" id="700">
