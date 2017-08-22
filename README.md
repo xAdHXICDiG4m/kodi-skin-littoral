@@ -1,2 +1,1 @@
-# kodi-skin-littoral
-Minimal V17 Kodi Skin With Kiosk Mode
+### This is a modified skin without all the bloat of the standard Estuary
